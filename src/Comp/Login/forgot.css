@@ -1,0 +1,91 @@
+.bodyArtf {
+    display: block;
+    text-align: center;
+    min-height: 70vh;
+    width: 100%
+
+}
+
+@media screen and (max-width:360px) {
+    .bodyArtf {width:100%}
+}
+
+#footerT{
+    display: flex;
+        flex-direction: column;
+        min-height: 25vh;
+        width: 100%;
+        background-color: #F7F9FA;
+}
+
+
+.ForgotEmailContainerCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ForgotEmailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.feLogoC {
+    width: 70%;
+
+}
+
+.feHeaderC {
+    width: 50%;
+}
+
+.feHeaderC h2{
+    font-weight: lighter;
+}
+
+.feParaC {
+    width: 50%;
+}
+
+/*txt field container*/
+.fetxtFieledC {
+    width: 50%;
+}
+
+/*txt field tag*/
+.fetxtFieldT {
+    width: 100%;
+}
+
+.feBtnC {
+    width: 50%;
+}
+
+.feBtnC .feBtnT {
+    width: 100%;
+    min-height: 44px;
+    background-color: #142c8e;
+    border-radius: 25px;
+    padding: 12px 32px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.txtRemC {
+    width: 50%;
+
+}
+
+a {
+    color: #1040c1 !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+
+
+}

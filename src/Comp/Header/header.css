@@ -1,0 +1,76 @@
+.App-header {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    border-bottom: 1px lightsteelblue;
+    width:100%;
+    text-align: center;
+    
+  }
+
+  .firstHeaderSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+  }
+
+  .firstHeaderSection Button{
+    font-size: 8px;
+    
+  }
+
+  /*second header section**/
+
+  .secondHeaderSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%
+  }
+  .secondHeaderSection div{
+    width: 20%;
+    margin: 0px 15px;
+  }
+
+  .secondHeaderSection Button{
+    font-size: 8px;
+    border-radius: 25px;
+    width: 100%;
+    padding:0px;
+    height: 25px;
+   
+  }
+
+  .secondHeaderSection  .hLoginBtn{
+    border: 2px solid #003087;
+    color: #003087;
+    font-weight: 600;
+  }
+
+  .secondHeaderSection  .hSignUpBtn{
+    border: 2px solid #003087;
+    background-color: #003087;
+    color: white;
+    font-weight:600;
+  }
+
+  .hburger{
+    
+  }
+
+  @media screen and (max-width:700px) {
+    .firstHeaderSection .hmenuBtn{
+      display: none;
+    }
+
+    .secondHeaderSection{
+      width:50%;
+
+    }
+
+    .hburger{
+    
+    }
+  }

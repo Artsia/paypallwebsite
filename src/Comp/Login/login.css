@@ -1,0 +1,196 @@
+.centerLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 130vh;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid gray;
+    width: 100%;
+}
+
+/*footer*/
+#lFooter {
+    width: 100%;
+}
+
+@media screen and (max-width:380px) {
+    #lFooter {
+        width: 100%;
+        background-color: white;
+    }
+
+}
+
+.mainContainer {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 80vh;
+    height: 100%;
+    align-items: center;
+
+}
+
+.email {
+    width: 80%;
+}
+
+.txtField {
+    border: gray;
+    width: 100%;
+    height: 64px;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-size: large;
+    color: black;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+
+.forgotEmail {
+    width: 80%;
+}
+
+.forgotEmail .eLink {
+    font-size: 18px;
+    color: #1072eb;
+
+}
+
+.eLink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    outline: 0;
+}
+
+a,
+a:link,
+a:visited {
+    color: #666;
+    font-weight: 700;
+}
+
+.Btn {
+    width: 80%;
+}
+
+.Btn .blueNextBtn {
+    color: white;
+    width: 100%;
+    background-color: #142c8e;
+    border-radius: 25px;
+    min-height: 44px;
+    padding: 12px 32px;
+    font-weight: 700;
+
+}
+
+
+.Btn .bluSignBtn {
+    width: 100%;
+    color: #142c8e;
+    border-radius: 25px;
+    min-height: 44px;
+    padding: 12px 32px;
+    font-weight: 700;
+}
+
+/*diver section*/
+
+.Divider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.emptyDivwithBorder {
+    width: 40%;
+    height: .1px;
+    border: 0.000001rem solid gray;
+
+}
+
+.languageContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+@media screen and (max-width:380px) {
+
+    .centerLogin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 130vh;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid gray;
+        border: none;
+    }
+
+    .mainContainer {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 80vh;
+        height: 100%;
+        align-items: center;
+        border: none;
+        margin-top: 5%;
+    }
+
+    .email {
+        width: 60%;
+    }
+
+    .forgotEmail {
+        width: 60%;
+    }
+
+    .forgotEmail .eLink {
+        font-size: 15px;
+        color: #1072eb;
+
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 9px;
+    }
+
+    .Btn {
+        width: 60%;
+    }
+
+    .languageContainer {
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 10px;
+
+    }
+
+}
